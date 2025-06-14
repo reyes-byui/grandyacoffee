@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grandya Coffee is a cozy coffee shop in Siem Reap, Cambodia, offering premium coffee, delicious pastries, and a relaxing atmosphere for locals and travelers alike.">
+    <meta name="author" content="Hera St.">
+    <meta name="keywords" content="coffee, Siem Reap, cambodia, coffee shop, cafés in Siem Reap, cafés, ">
+    <title>GRANDYA COFFEE</title>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="header-container"></div>
+    <div id="login-modal" style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 2000;">
+        <form id="login-form" style="background: #fff; padding: 2em 2.5em; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.15); display: flex; flex-direction: column; gap: 1em; min-width: 300px;">
+            <h2 style="margin: 0 0 1em 0; text-align: center;">Login</h2>
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" name="username" required autocomplete="username">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="password" required autocomplete="current-password">
+            <button type="submit" class="btn" style="margin-top: 1em;">Log In</button>
+            <div id="login-error" style="color: red; font-size: 0.9em; display: none; text-align: center;"></div>
+        </form>
+    </div>
+    <main>
+        <div id="header-hero" class="header-hero">
+            <h1>Welcome to<br>GRANDYA COFFEE</h1>
+            <p>Your cozy coffee shop in Siem Reap, Cambodia</p>
+            <a href="/pages/menu.html" class="btn">See Our Menu</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1494067329533-4385a4867cd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="bricks" class="bricks-image">
+        <div id="main-content" class="main-content">
+            <section id="best-text">
+                <h2>Our Best Sellers</h2>
+                <p>Grandya Coffee's best sellers are customer favorites, known for their refreshing taste and quality ingredients. Try our signature Iced Latte, the vibrant Iced Matcha Latte, or the unique Passion Frappe for a delightful coffee experience.</p>
+            </section>
+            <section id="best-coffee">
+                <img src="images/coffee-cup.png" alt="coffee cup" class="coffee-cup-image">
+        </div>
+        <div id="best-sellers"></div>
+        <div id="premium-coffee" class="premium-coffee">
+            <secion class="premium-description">
+                <h2>Premium Coffee</h2>
+                <p>Grandya Coffee uses premium beans: a balanced blend of 50% Arabica and 50% Robusta, medium roasted for optimal flavor. Sourced directly from Mondulkiri, these beans deliver a rich and authentic coffee experience.</p>
+                <button class="btn premium-btn"><a href="/pages/about.html">Learn More</a></button>
+            </secion>
+            <section class="premium-img">
+                <img src="https://images.unsplash.com/photo-1749280806268-ee8b99c578b0?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Premium Coffee" class="premium-coffee-image">
+            </section>
+        </div>
+        <div id="cozy-atmosphere" class="cozy-atmosphere">
+            <h2>Experience GRANDYA COFFEE</h2>
+            <p>Discover a cozy atmosphere with relaxing vibes, inviting interiors, and signature coffee cups—perfect for unwinding or connecting with friends.</p>
+        </div>
+        <div id="atmosphere-image" class="atmosphere-image">    
+            <section id="exterior" class="atmosphere">
+                <h3>Exterior</h3>
+                <p>Enjoy our welcoming outdoor space, perfect for relaxing, people-watching, and soaking up the Siem Reap vibe.</p>
+                <img src="https://images.unsplash.com/photo-1749280806328-3c920bd792e4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exterior of Grandya Coffee" class="exterior-image"></img>
+            </section>
+            <section id="interior" class="atmosphere">
+                <h3>Interior</h3>
+                <p>Cozy, stylish interiors designed for comfort and connection, with comfortable seats and a relaxing ambiance for all.</p>
+                <img src="https://images.unsplash.com/photo-1749280806392-bff4dbf82eb2?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exterior of Grandya Coffee" class="interior-image"></img>
+            </section>
+                <section id="vibes" class="atmosphere">
+                <h3>Vibes</h3>
+                <p>Chill atmosphere with great music, friendly faces, and a welcoming spirit that makes every visit memorable and fun.</p>
+                <img src="https://images.unsplash.com/photo-1749280806475-c85a50350b9f?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exterior of Grandya Coffee" class="grandy-vibes"></img>
+            </section>
+                <section id="coffee-cups" class="atmosphere">
+                <h3>Coffee Cups</h3>
+                <p>Sip from our signature cups, crafted for the perfect coffee experience, and enjoy every moment at Grandya Coffee.</p>
+                <img src="https://images.unsplash.com/photo-1749280806036-254fd7eae95d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Exterior of Grandya Coffee" class="exterior-image"></img>
+            </section>
+        </div>
+        <div id="choose-grandya" class="choose-grandya">
+            <h2>Why Choose Grandya Coffee?</h2>
+            <p style="font-size: 16pt; text-align: center;">Grandya Coffee is a favorite for both locals and tourists, offering a welcoming space, quality drinks, and a reason to keep coming back. Whether you're seeking a cozy spot to relax, a taste of local coffee culture, or a friendly community, you'll find it here.</p>
+            <div class="choose-grandya-columns">
+            <div class="column">
+                    <img src="icons/coffee.svg" alt="Local's Favorite" class="icon">
+                    <h3>Locals' Favorite</h3>
+                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
+                </div>
+                <div class="column">
+                    <img src="icons/tourist.svg" alt="Tourists' Choice" class="icon">
+                    <h3>Tourists' Choice</h3>
+                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
+                </div>
+                <div class="column">
+                    <img src="icons/love.svg" alt="Keep Coming Back" class="icon">
+                    <h3>Keep Coming Back</h3>
+                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer"></div>
+    <script src="scripts/menu-toggle.js" defer></script>
+    <script src="scripts/menu-cards.js" defer></script>
+    <script src="scripts/partials-loader.js" defer></script>
+    <script src="scripts/best-sellers.js" defer></script>
+    <script>renderBestSellers();</script>
+    <script>
+    // Simple login logic (demo only, not secure for production)
+    document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('login-modal');
+        const form = document.getElementById('login-form');
+        const error = document.getElementById('login-error');
+        // You can change these credentials
+        const USERNAME = 'admin';
+        const PASSWORD = 'password123';
+        if (localStorage.getItem('isLoggedIn') === 'true') {
+            modal.style.display = 'none';
+        } else {
+            modal.style.display = 'flex';
+        }
+        form.onsubmit = function(e) {
+            e.preventDefault();
+            const u = document.getElementById('login-username').value;
+            const p = document.getElementById('login-password').value;
+            if (u === USERNAME && p === PASSWORD) {
+                localStorage.setItem('isLoggedIn', 'true');
+                modal.style.display = 'none';
+            } else {
+                error.textContent = 'Invalid username or password.';
+                error.style.display = 'block';
+            }
+        };
+    });
+    </script>
+</body>
+</html>

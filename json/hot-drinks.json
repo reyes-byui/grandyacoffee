@@ -1,0 +1,65 @@
+[
+    {
+        "data-id": "hot-1",
+        "image-url": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Espresso",
+        "description": "A strong and rich Italian coffee served in a small cup.",
+        "price": "1.50"
+    },
+    {
+        "data-id": "hot-2",
+        "image-url": "https://images.unsplash.com/photo-1551030173-122aabc4489c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Americano",
+        "description": "Espresso diluted with hot water for a lighter taste.",
+        "price": "1.50"
+    },
+    {
+        "data-id": "hot-3",
+        "image-url": "https://images.unsplash.com/photo-1655314086394-75582228224d?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Café Latte",
+        "description": "Smooth espresso mixed with steamed milk and a light layer of foam.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "hot-4",
+        "image-url": "https://images.unsplash.com/photo-1600056781444-55f3b64235e3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Cappuccino",
+        "description": "Espresso topped with equal parts steamed milk and milk foam.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "hot-5",
+        "image-url": "https://images.unsplash.com/photo-1749292358748-73d8293da38e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Café Moccha",
+        "description": "A blend of espresso, chocolate, and steamed milk, topped with cream.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "hot-6",
+        "image-url": "https://images.unsplash.com/photo-1735450894872-081ac8a1c9de?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Condensed Milk Café",
+        "description": "Espresso sweetened with creamy condensed milk.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "hot-7",
+        "image-url": "https://images.unsplash.com/photo-1749280805433-e5bfa6c10671?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Matcha Latte",
+        "description": "Japanese green tea powder blended with steamed milk.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "hot-8",
+        "image-url": "https://images.unsplash.com/photo-1608651057580-4a50b2fc2281?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Hot Chocolate",
+        "description": "Rich and creamy hot chocolate made with real cocoa.",
+        "price": "1.50"
+    },
+    {
+        "data-id": "hot-9",
+        "image-url": "https://images.unsplash.com/photo-1637216789852-d2c6d5de6f68?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Lemon Tea",
+        "description": "Refreshing black tea infused with a slice of lemon.",
+        "price": "1.50"
+    }
+]
