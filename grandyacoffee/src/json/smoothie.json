@@ -1,0 +1,23 @@
+[
+    {
+        "data-id": "smoothie-1",
+        "image-url": "https://images.unsplash.com/photo-1542444592-e6880e286bb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuYW5hJTIwc21vb3RoaWV8ZW58MHwxfDB8fHwy",
+        "name": "Banana Smoothie",
+        "description": "A creamy blend of ripe bananas and milk, perfect for a refreshing treat.",
+        "price": "2.50"
+    },
+    {
+        "data-id": "smoothie-2",
+        "image-url": "https://images.unsplash.com/photo-1606673993554-a5f993a16e0d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Passion Smoothie",
+        "description": "A tropical smoothie made with fresh passion fruit for a tangy, sweet flavor.",
+        "price": "2.50"
+    },
+    {
+        "data-id": "smoothie-3",
+        "image-url": "https://images.unsplash.com/photo-1611928237590-087afc90c6fd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Strawberry Smoothie",
+        "description": "A classic smoothie with juicy strawberries, blended to perfection.",
+        "price": "2.50"
+    }
+]

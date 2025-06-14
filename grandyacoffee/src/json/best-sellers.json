@@ -1,0 +1,20 @@
+[
+    {
+        "data-id":"drink-item-1",
+        "image":"https://images.unsplash.com/photo-1749280805303-cef2b76a609d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name":"Iced Latte",
+        "description":"A refreshing blend of espresso and cold milk served over ice."
+    },
+    {
+        "data-id":"drink-item-2",
+        "image":"https://images.unsplash.com/photo-1749280805394-e6a4d7db906c?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name":"Iced Matcha Latte",
+        "description":"A creamy and refreshing iced matcha latte with a hint of sweetness."
+    },
+    {
+        "data-id":"drink-item-3",
+        "image":"https://images.unsplash.com/photo-1749280805668-5057eaaa0273?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name":"Passion Smoothie",
+        "description":"A tropical smoothie made with passion fruit for a refreshing treat."
+    }
+]

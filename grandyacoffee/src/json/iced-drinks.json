@@ -1,0 +1,65 @@
+[
+    {
+        "data-id": "iced-1",
+        "image-url": "https://images.unsplash.com/photo-1581996323441-538096e854b9?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Americano",
+        "description": "A refreshing cold coffee made with espresso and water.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "iced-2",
+        "image-url": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=2028&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Café Latte",
+        "description": "Chilled espresso with milk served over ice.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-3",
+        "image-url": "https://images.unsplash.com/photo-1629991964567-3107a9202778?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Capuccino",
+        "description": "A cold version of the classic cappuccino, made with espresso, milk, and ice.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-4",
+        "image-url": "https://images.unsplash.com/photo-1684548856346-041e1a90d630?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Café Moccha",
+        "description": "A delicious blend of espresso, chocolate, and milk served over ice.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-5",
+        "image-url": "https://images.unsplash.com/photo-1589985902809-39d25db22101?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Condensed Milk Café",
+        "description": "Sweet and creamy iced coffee made with condensed milk and espresso.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-6",
+        "image-url": "https://images.unsplash.com/photo-1708572808503-48242f5c9a89?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Matcha Latte",
+        "description": "A refreshing drink made with matcha green tea, milk, and ice.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-7",
+        "image-url": "https://images.unsplash.com/photo-1515316416554-1af1fbca57a2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Chocolate",
+        "description": "Rich chocolate blended with milk and served over ice.",
+        "price": "1.75"
+    },
+    {
+        "data-id": "iced-8",
+        "image-url": "https://images.unsplash.com/photo-1599390720183-fdacb8216b90?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Lemon Tea",
+        "description": "Black tea with a splash of lemon, served chilled over ice.",
+        "price": "1.60"
+    },
+    {
+        "data-id": "iced-9",
+        "image-url": "https://images.unsplash.com/photo-1620400183452-c6e4c7933bd3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "name": "Iced Lemonade Passion",
+        "description": "A tangy and refreshing lemonade with a hint of passion fruit, served over ice.",
+        "price": "1.60"
+    }
+]
