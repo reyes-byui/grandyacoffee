@@ -249,11 +249,11 @@
         padding: 1em 4em;
     }
     .drinks-category h2, .food-category h2 {
-        font-size: 24pt;
+        font-size: 20pt;
         font-weight: 700;
         margin-bottom: 1em;
         text-align: left;
-        padding: 0 2em;
+        padding: 0 1em;
         color: var(--border-color);
     }
     .menu-grid {
@@ -420,29 +420,13 @@
         gap: 1.5em;
         margin: 1.5em 0 0 0;
     }
-    .menu-pagination button {
-        background: #fff;
-        border: 2px solid #c9a063;
-        color: #c9a063;
-        font-weight: bold;
-        padding: 0.5rem 1.5rem;
-        border-radius: 2rem;
-        cursor: pointer;
-        transition: background 0.2s, color 0.2s, border 0.2s;
-    }
+
     .menu-pagination button:disabled {
         opacity: 0.5;
         cursor: not-allowed;
     }
-    .menu-pagination button:not(:disabled):hover {
-        background: #c9a063;
-        color: #fff;
-        border-color: #c9a063;
-    }
     .menu-pagination .menu-page {
-        font-size: 1em;
-        color: #545f25;
-        font-weight: 500;
+        font-size: 10pt;
     }
     .header-close {
         display: block;
@@ -653,5 +637,23 @@
     }
     #terms-info {
         padding: 8em 6em 4em 6em;
+    }
+    .about-hero {
+        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806746-9195dd024cc0?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .menu-hero {
+        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806637-ed77277badd3?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .menu-footer {
+        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806241-83c5d50dffe4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
