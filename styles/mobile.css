@@ -656,4 +656,62 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+    /* Fade-in animation for images */
+    img.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease;
+    }
+    img.fade-in.visible {
+    opacity: 1;
+    }
+    /* Slide-in from left animation for headings (h1-h6) */
+h1.slide-in-left, h2.slide-in-left, h3.slide-in-left, h4.slide-in-left, h5.slide-in-left, h6.slide-in-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4.slide-in-left.visible, h5.slide-in-left.visible, h6.slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* Slide-in from right animation for paragraphs */
+p.slide-in-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+p.slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* Overlay for hero background images with fade-in, ensuring headings are above overlay */
+.bg-fade {
+  position: relative;
+  z-index: 0;
+}
+.bg-fade::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45); /* dark overlay */
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 1s;
+  opacity: 1;
+}
+.bg-fade > * {
+  position: relative;
+  z-index: 2; /* Ensure headings and content are above the overlay */
+}
+/* Add delay and z-index for all headings inside hero sections, not just direct children */
+.bg-fade h1.slide-in-left,
+.bg-fade h2.slide-in-left,
+.bg-fade h3.slide-in-left,
+.bg-fade h4.slide-in-left,
+.bg-fade h5.slide-in-left,
+.bg-fade h6.slide-in-left {
+  transition-delay: 0.3s;
+  position: relative;
+  z-index: 2;
+}
 }
