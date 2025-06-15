@@ -501,11 +501,13 @@ img {
     color: var(--border-color);
 }
 .menu-grid {
+    flex: 1 1 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 1.5em;
     margin: 2em 0;
+    min-width: 0;
 }
 .menu-card {
     background: #fff;
@@ -517,8 +519,11 @@ img {
     align-items: flex-start;
     justify-content: flex-start;
     min-height: 180px;
-    width: 300px;
-    margin: 0 0.75em 1.5em 0.75em;
+    width: 220px;
+    min-width: 180px;
+    max-width: 240px;
+    flex: 0 0 auto;
+    margin: 0 0.5em;
 }
 .menu-card img {
     width: 100%;
@@ -1028,4 +1033,43 @@ p.slide-in-right {
 p.slide-in-right.visible {
   opacity: 1;
   transform: translateX(0);
+}
+.menu-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0.5em;
+}
+.menu-arrow {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, opacity 0.2s;
+  opacity: 0.85;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.menu-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+/* Instagram Embed Styles - Larger Size */
+#instagram .instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
 }

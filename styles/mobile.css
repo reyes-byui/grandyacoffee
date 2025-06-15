@@ -46,7 +46,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 1.5rem 0;
+        padding: 2em 3em;
         box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
     .logo img {
@@ -76,6 +76,7 @@
         text-decoration: none;
         transition: color 0.2s;
         color: var(--background-color);
+        padding: 0 3em;
     }
     .social-icons a:hover {
         color: var(--text-secondary-color);
@@ -273,7 +274,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         min-height: 180px;
-        width: 300px;
+        width: 200px;
         margin: 0 0.75em 1.5em 0.75em;
     }
     .menu-card img {
@@ -671,16 +672,6 @@ h1.slide-in-left, h2.slide-in-left, h3.slide-in-left, h4.slide-in-left, h5.slide
   transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
 }
 h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4.slide-in-left.visible, h5.slide-in-left.visible, h6.slide-in-left.visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-/* Slide-in from right animation for paragraphs */
-p.slide-in-right {
-  opacity: 0;
-  transform: translateX(40px);
-  transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
-}
-p.slide-in-right.visible {
   opacity: 1;
   transform: translateX(0);
 }
