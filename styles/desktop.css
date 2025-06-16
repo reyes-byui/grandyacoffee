@@ -1085,3 +1085,42 @@ p.slide-in-right.visible {
     margin: 0 auto;
     padding: 8em 2em 6em 2em;
 }
+
+/* Weather Widget Styles */
+.weather-widget {
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    border-radius: 12px;
+    padding: 0.5em 1.2em;
+    font-size: 1.1em;
+    font-family: var(--primary-font);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 0.5em 0;
+    min-width: 180px;
+    min-height: 48px;
+}
+.weather-widget img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffd500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    border: 2px solid #fff;
+    padding: 4px;
+    margin-right: 0.7em;
+    transition: transform 0.2s;
+}
+.weather-widget img:hover {
+    transform: scale(1.1) rotate(-8deg);
+}
+.weather-widget strong {
+    font-size: 1.2em;
+    color: #ffd500;
+}
+.weather-widget span {
+    display: block;
+    line-height: 1.2em;
+}

@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Load header partial into #header-container (not #header)
             const headerContainer = document.getElementById('header-container');
             if (headerContainer) headerContainer.innerHTML = data;
+            // Load weather widget script after header is injected
+            const weatherScript = document.createElement('script');
+            weatherScript.src = '/scripts/weather-widget.js';
+            weatherScript.defer = true;
+            document.body.appendChild(weatherScript);
             // --- Mobile menu toggle logic ---
             const menuToggle = document.querySelector('.menu-toggle');
             const headerElem = document.getElementById('header');
