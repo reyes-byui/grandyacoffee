@@ -70,6 +70,7 @@
         flex-direction: column;
         gap: 1.2rem;
         padding: 0;
+        margin-top: 2em;
     }
     .social-icons a {
         font-size: 12t;
@@ -705,4 +706,7 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
   position: relative;
   z-index: 2;
 }
+  #weather-widget {
+    order: -1;
+  }
 }
