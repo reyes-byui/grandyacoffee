@@ -810,7 +810,7 @@ img {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: auto;
   justify-content: space-between; /* Spread children evenly vertically */
 }
 #contact-forms {
@@ -1115,4 +1115,16 @@ p.slide-in-right.visible {
 .weather-widget span {
     display: block;
     line-height: 1.2em;
+}
+/* public holiday */
+#public-holidays-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 10pt;
+    padding: 0;
+    margin: 0;
+    color:#000000;
+    padding: 0.5em;
 }
