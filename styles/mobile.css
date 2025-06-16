@@ -12,6 +12,7 @@
     #header {
         display: none;
         flex-direction: column;
+        gap: 0;
         justify-content: center;
         align-items: flex-start;
         position: fixed;
@@ -47,13 +48,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 0;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
     .logo img {
         height: auto;
         max-width: 70%;
         margin: 0 auto;
-        padding: 0;
+        padding: 0.5em 0;
     }
     .navbar ul {
         display: flex;
@@ -707,6 +707,7 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
   z-index: 2;
 }
   #weather-widget {
-    order: -1;
+    order: 1;
+    margin-top: 1em;
   }
 }

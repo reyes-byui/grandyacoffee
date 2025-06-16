@@ -28,7 +28,8 @@ img {
 #header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 2em;
+    justify-content: center;
     align-items: center;
     align-content: center;
     background: var(--primary-color);
@@ -62,7 +63,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 .logo img {
@@ -72,7 +73,7 @@ img {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1em;
     margin: 0;
     padding: 0;
 }
