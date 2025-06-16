@@ -54,5 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const footer = document.getElementById('footer');
             if (footer) footer.innerHTML = data;
+            // Load footer active script after footer is injected
+            const footerActiveScript = document.createElement('script');
+            footerActiveScript.src = '/scripts/footer-active.js';
+            footerActiveScript.defer = true;
+            document.body.appendChild(footerActiveScript);
         });
 });
