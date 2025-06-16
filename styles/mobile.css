@@ -94,7 +94,7 @@
     .about-hero h1 {
         font-size: 22pt;
         margin-bottom: 0;
-        padding: 0 1em;
+        padding: 0em;
     }
     .header-hero p,
     .header-menu p,
@@ -248,7 +248,7 @@
     }
     /* menu-cards */
     .fnb-content {
-        padding: 1em 4em;
+        padding: 1em;
     }
     .drinks-category h2, .food-category h2 {
         font-size: 20pt;
@@ -415,6 +415,9 @@
         text-align: left;
     }  
     /* footer ends here */
+    .menu-arrow {
+        font-size: 12pt;
+    }
     .menu-pagination {
         display: flex;
         justify-content: center;
