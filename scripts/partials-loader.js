@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
             weatherScript.src = '/scripts/weather-widget.js';
             weatherScript.defer = true;
             document.body.appendChild(weatherScript);
+            // Load navbar active script after header is injected
+            const navbarActiveScript = document.createElement('script');
+            navbarActiveScript.src = '/scripts/navbar-active.js';
+            navbarActiveScript.defer = true;
+            document.body.appendChild(navbarActiveScript);
             // --- Mobile menu toggle logic ---
             const menuToggle = document.querySelector('.menu-toggle');
             const headerElem = document.getElementById('header');

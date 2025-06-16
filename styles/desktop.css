@@ -82,9 +82,15 @@ img {
     font-size: 16pt;
     font-weight: 500;
     transition: color 0.2s;
+    padding: 0.2em;
+    border-radius: 5px;
 }
 .navbar a:hover {
     color: var(--background-color);
+}
+.navbar a.active {
+    background-color: #ffd500;
+    color: #000000;
 }
 .social-icons {
     display: flex;
