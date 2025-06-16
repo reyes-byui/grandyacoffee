@@ -9,7 +9,7 @@
 
   widget.textContent = 'Loading weather...';
 
-  fetch(`/api/weather?location=${encodeURIComponent(location)}`)
+  fetch('/.netlify/functions/weather?location=' + encodeURIComponent(location))
     .then(res => res.json())
     .then(data => {
       if (data && data.current) {
@@ -23,15 +23,13 @@
             <span>${temp}&deg;C, ${condition}</span>
           `;
         } else {
-          console.log('WeatherAPI response missing temperature or condition:', data);
           widget.textContent = 'Weather unavailable';
         }
       } else {
         widget.textContent = 'Weather unavailable';
       }
     })
-    .catch((e) => {
+    .catch(() => {
       widget.textContent = 'Weather unavailable';
-      console.error('WeatherAPI fetch error:', e);
     });
 })();
