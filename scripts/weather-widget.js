@@ -5,13 +5,17 @@
     const widget = document.getElementById('weather-widget');
     if (!widget) return;
 
-    // For security, the API key should be injected server-side or via a serverless function in production.
-    // For static demo, we fetch from .env (not secure for production, but works for local dev)
-    // In production, use a serverless function to proxy the request and hide the key.
-    const apiKey = window.WEATHERBIT_API_KEY || "285587920f3e47319849dd6f4a47947d";
+    // Get API key from injected environment variable only (do not hardcode fallback)
+    const apiKey = window.WEATHERBIT_API_KEY;
+    if (!apiKey) {
+        widget.innerHTML = 'Weather unavailable';
+        return;
+    }
+
+    // Fetch from local Express server to keep API key hidden
     const lat = 13.367685988771248;
     const lon = 103.84851522543664;
-    const url = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${lon}&key=${apiKey}&units=M`;
+    const url = `/api/weather?lat=${lat}&lon=${lon}`;
 
     try {
         const res = await fetch(url);
