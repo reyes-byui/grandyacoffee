@@ -86,8 +86,9 @@
     /* hero styles */
     /* Ensure hero backgrounds fit and look good on mobile } */
     .header-menu,
+    .header-hero,
     .menu-hero,
-    .about-hero,s
+    .about-hero,
     .contactpage-hero,
     .menu-footer {
         background-size: cover;
