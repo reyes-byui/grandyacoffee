@@ -32,7 +32,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 2em;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
     background: var(--primary-color);
@@ -188,6 +188,7 @@ img {
     border: none;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     transition: background 0.2s, color 0.2s;
+    width: fit-content;
 }
 .header-hero .btn:hover,
 .header-menu .btn:hover,
@@ -310,7 +311,7 @@ img {
     padding: 2em 6em;
     background-color: #fcf7c0;
 }
-.premium-coffee button  {
+/* .premium-coffee button  {
     background: var(--border-color);
     color: var(--primary-color);
     border-radius: 25px;
@@ -328,7 +329,7 @@ img {
 .premium-coffee button:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
-}
+} */
 .premium-coffee .premium-description {
     flex: 0 0 60%;
     max-width: 60%;

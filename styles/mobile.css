@@ -164,9 +164,6 @@
         display: flex;
         flex: none;
     }
-    .premium-coffee button  {
-        width: 50%;
-    }
     .premium-coffee .premium-description {
         flex: none;
         max-width: 100%;
