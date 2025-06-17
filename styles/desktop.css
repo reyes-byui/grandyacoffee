@@ -21,10 +21,7 @@ p {
     font-weight: 400;
     color: var(--text-color);
 }
-img {
-    width: 100%;
-    height: auto;
-}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -110,24 +107,36 @@ img {
     background-color: #7a90a3;
     text-decoration: underline;
 }
-/* Header Hero Styles */
-.header-hero, .contactpage-hero, .about-hero  {
+/* Hero Styles */
+.header-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: #fff;
-    height: 80vh;
-    padding: 4rem 2rem 3rem 2rem;
-    position: relative;
-    background-attachment: fixed;
+    align-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806632-9ba908558d01?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
     background-position: center;
-    object-fit: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4rem 2rem 3rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
-.header-menu {
-    background: url('https://images.unsplash.com/photo-1749292358681-e04bbc412e17?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+
+@media (max-width: 768px) {
+    .header-hero {
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding: 2rem 1rem 1.5rem 1rem;
+        background-position: center;
+        background-size: cover;
+    }
+}
+.contactpage-hero, .about-hero  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +152,7 @@ img {
     background-repeat: no-repeat;
 }
 
-.header-hero::before, .header-menu::before {
+.header-menu::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -184,6 +193,7 @@ img {
     width: 70%;
     line-height: 1.6em;
     padding: 0;
+    text-align: center;
 }
 .header-hero .btn,
 .header-menu .btn,

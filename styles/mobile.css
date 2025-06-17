@@ -7,6 +7,7 @@
     img {
         width: 100%;
         height: auto;
+        display: block;
         object-fit: cover;
     }
     #header {
@@ -83,9 +84,6 @@
         color: var(--text-secondary-color);
     }
     /* hero styles */
-    .contactpage-hero, .header-hero, .menu-hero, .header-menu, .menu-footer, .about-hero {
-        object-fit: cover;
-    }
     .header-hero h1,
     .header-menu h1,
     .contactpage-hero h1,
@@ -691,12 +689,12 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
   position: relative;
   z-index: 2;
 }
-/* Ensure hero backgrounds fit and look good on mobile */
+/* Ensure hero backgrounds fit and look good on mobile } */
 .header-menu,
-.header-hero,
 .menu-hero,
 .about-hero,
-.contactpage-hero {
+.contactpage-hero,
+.menu-footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
