@@ -691,6 +691,17 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
   position: relative;
   z-index: 2;
 }
+/* Ensure hero backgrounds fit and look good on mobile */
+.header-menu,
+.header-hero,
+.menu-hero,
+.about-hero,
+.contactpage-hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
   #weather-widget {
     order: 1;
     margin-top: 1em;
