@@ -114,7 +114,7 @@ img {
     text-decoration: underline;
 }
 /* Header Hero Styles */
-.header-hero, .contactpage-hero, .about-hero, .header-menu  {
+.header-hero, .contactpage-hero, .about-hero, .header-menu, .menu-footer, .menu-hero  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,15 +126,8 @@ img {
     position: relative;
     background-attachment: fixed;
     background-position: center;
-    object-fit: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-}
-.header-hero::before, .header-menu::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.6);
-    z-index: 1;
 }
 .header-hero h1,
 .header-hero p,
@@ -594,48 +587,6 @@ img {
 .discover-menu-cards .menu-atmosphere p {
     font-size: 12pt;
     margin-bottom: 0.5em;
-}
-.menu-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806241-83c5d50dffe4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.menu-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806637-ed77277badd3?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 4rem 2rem 3rem 2rem;
-}
-/* menu.html ends here */
-/* about */
-.about-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806746-9195dd024cc0?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .about-hero p {

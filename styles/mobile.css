@@ -85,24 +85,23 @@
     }
     /* hero styles */
     /* Ensure hero backgrounds fit and look good on mobile } */
-    .header-menu,
-    .header-hero,
-    .menu-hero,
-    .about-hero,
-    .contactpage-hero,
-    .menu-footer {
+    .header-hero, .contactpage-hero, .about-hero, .header-menu, .menu-footer, .menu-hero{
         background-size: cover;
         background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 60vh;
+        height: 60vh;
     }
-
+    .menu-footer, .header-menu {
+        height: 35vh !important;
+    }
+    .menu-footer h1, .header-menu h1{
+        font-size: 18pt;
+        padding: 0;
+    }
     .header-hero h1,
-    .header-menu h1,
     .contactpage-hero h1,
     .menu-hero h1,
-    .menu-footer h1,
     .about-hero h1 {
         font-size: 22pt;
         margin-bottom: 0;
@@ -224,7 +223,7 @@
     }
     /* menu.html */
     #fnb-menu {
-        margin-top: 80px;
+        margin-top: 2em;
     }
     .fnb-buttons {
         display: flex;
@@ -314,7 +313,7 @@
         margin: 0;
     }
     #discover-menu {
-        padding: 2em 6em;
+        padding: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -322,9 +321,9 @@
         align-content: center;
     }
     #discover-menu h2 {
-        font-size: 28pt;
+        font-size: 20pt;
         font-weight: 700;
-        text-align: center;
+        padding: 0 1em;
     }
     .discover-menu-cards {
         display: grid;
