@@ -21,6 +21,12 @@ p {
     font-weight: 400;
     color: var(--text-color);
 }
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
 
 #header {
     display: flex;
