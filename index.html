@@ -3,30 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Grandya Coffee is a cozy coffee shop in Siem Reap, Cambodia, offering premium coffee, delicious pastries, and a relaxing atmosphere for locals and travelers alike.">
+    <meta name="description" content="Grandya Coffee in Siem Reap, Cambodia offers premium coffee, pastries, and a relaxing atmosphere for locals and travelers." />
     <meta name="author" content="Hera St.">
-    <meta name="keywords" content="coffee, Siem Reap, cambodia, coffee shop, cafés in Siem Reap, cafés, ">
-    <title>GRANDYA COFFEE</title>
+    <meta name="keywords" content="Grandya Coffee, coffee shop, Siem Reap, Cambodia, café, pastries, best coffee, local coffee, tourist café, grandya coffee cambodia, grandya coffee, siem reap, cafe in siem reap, study cafe siem reap, local coffee siem reap" />
+    <title>Grandya Coffee | Siem Reap’s Cozy Coffee Shop</title>
     <link rel="stylesheet" href="styles/desktop.css">
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Grandya Coffee | Siem Reap’s Cozy Coffee Shop" />
+    <meta property="og:description" content="Grandya Coffee in Siem Reap, Cambodia offers premium coffee, pastries, and a relaxing atmosphere for locals and travelers." />
+    <meta property="og:image" content="https://www.grandyacoffee.com/icons/logo.png" />
+    <meta property="og:url" content="https://www.grandyacoffee.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Grandya Coffee | Siem Reap’s Cozy Coffee Shop" />
+    <meta name="twitter:description" content="Grandya Coffee in Siem Reap, Cambodia offers premium coffee, pastries, and a relaxing atmosphere for locals and travelers." />
+    <meta name="twitter:image" content="https://www.grandyacoffee.com/icons/logo.png" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Grandya Coffee",
+      "image": "https://www.grandyacoffee.com/icons/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wat Damnak",
+        "addressLocality": "Siem Reap",
+        "addressCountry": "KH"
+      },
+      "url": "https://www.grandyacoffee.com",
+      "telephone": "+85510336866",
+      "servesCuisine": ["Coffee", "Pastries", "Breakfast", "Lunch"],
+      "priceRange": "$"
+    }
+    </script>
 </head>
 <body>
     <div id="header-container"></div>
-    <div id="login-modal" style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 2000;">
-        <form id="login-form" style="background: #fff; padding: 2em 2.5em; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.15); display: flex; flex-direction: column; gap: 1em; min-width: 300px;">
-            <h2 style="margin: 0 0 1em 0; text-align: center;">Login</h2>
-            <label for="login-username">Username</label>
-            <input type="text" id="login-username" name="username" required autocomplete="username">
-            <label for="login-password">Password</label>
-            <input type="password" id="login-password" name="password" required autocomplete="current-password">
-            <button type="submit" class="btn" style="margin-top: 1em;">Log In</button>
-            <div id="login-error" style="color: red; font-size: 0.9em; display: none; text-align: center;"></div>
-        </form>
-    </div>
     <main>
         <img class="main-logo" src="icons/logo.png" alt="Grandya Coffee Logo">
         <div id="header-hero" class="header-hero bg-fade" data-bg="https://images.unsplash.com/photo-1749280806632-9ba908558d01?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
@@ -85,20 +101,20 @@
             <p>Grandya Coffee is a favorite for both locals and tourists, offering a welcoming space, quality drinks, and a reason to keep coming back. Whether you're seeking a cozy spot to relax, a taste of local coffee culture, or a friendly community, you'll find it here.</p>
             <div class="choose-grandya-columns">
             <div class="column">
-                    <img src="icons/coffee.svg" alt="Local's Favorite" class="icon fade-in" loading="lazy">
-                    <h3>Locals' Favorite</h3>
-                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
-                </div>
-                <div class="column">
-                    <img src="icons/tourist.svg" alt="Tourists' Choice" class="icon fade-in" loading="lazy">
-                    <h3>Tourists' Choice</h3>
-                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
-                </div>
-                <div class="column">
-                    <img src="icons/love.svg" alt="Keep Coming Back" class="icon fade-in" loading="lazy">
-                    <h3>Keep Coming Back</h3>
-                    <p>Grandya Coffee is a beloved spot for locals, offering a warm atmosphere and quality coffee that keeps them coming back.</p>
-                </div>
+                <img src="icons/coffee.svg" alt="Local's Favorite" class="icon fade-in" loading="lazy">
+                <h3>Locals' Favorite</h3>
+                <p>Grandya Coffee is cherished by locals for its friendly service, consistent quality, and a welcoming space that feels like home.</p>
+            </div>
+            <div class="column">
+                <img src="icons/tourist.svg" alt="Tourists' Choice" class="icon fade-in" loading="lazy">
+                <h3>Tourists' Choice</h3>
+                <p>Travelers love Grandya Coffee for its authentic Cambodian coffee experience and relaxing ambiance in the heart of Siem Reap.</p>
+            </div>
+            <div class="column">
+                <img src="icons/love.svg" alt="Keep Coming Back" class="icon fade-in" loading="lazy">
+                <h3>Keep Coming Back</h3>
+                <p>Our guests return again and again for the delicious drinks, cozy atmosphere, and the sense of community they find at Grandya Coffee.</p>
+            </div>
             </div>
         </div>
     </main>
@@ -110,33 +126,5 @@
     <script src="scripts/fade-in-images.js" defer></script>
     <script src="scripts/bg-fade-lazy.js" defer></script>
     <script src="scripts/heading-slide-in.js" defer></script>
-    <script>
-    // Simple login logic (demo only, not secure for production)
-    document.addEventListener('DOMContentLoaded', function() {
-        const modal = document.getElementById('login-modal');
-        const form = document.getElementById('login-form');
-        const error = document.getElementById('login-error');
-        // You can change these credentials
-        const USERNAME = 'admin';
-        const PASSWORD = 'password123';
-        if (localStorage.getItem('isLoggedIn') === 'true') {
-            modal.style.display = 'none';
-        } else {
-            modal.style.display = 'flex';
-        }
-        form.onsubmit = function(e) {
-            e.preventDefault();
-            const u = document.getElementById('login-username').value;
-            const p = document.getElementById('login-password').value;
-            if (u === USERNAME && p === PASSWORD) {
-                localStorage.setItem('isLoggedIn', 'true');
-                modal.style.display = 'none';
-            } else {
-                error.textContent = 'Invalid username or password.';
-                error.style.display = 'block';
-            }
-        };
-    });
-    </script>
 </body>
 </html>

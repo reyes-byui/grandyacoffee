@@ -1037,6 +1037,7 @@ p.slide-in-right.visible {
     max-width: 700px;
     margin: 0 auto;
     padding: 8em 2em 6em 2em;
+    height: 45vh;
 }
 
 /* Weather Widget Styles */
