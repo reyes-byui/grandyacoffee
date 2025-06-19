@@ -374,27 +374,31 @@
     }
     /* menu.html ends here */
     .mission-vision, .our-story {
-        padding: 2em;
+        padding: 2em 2em 0 2em;
     }
     .mission-vision h2, .our-story h2 {
         font-size: 24pt;
     }
     .offer, .why-come-back {
-        padding: 2em;   
+        padding: 2em 2em 0 2em;
     }
     .offer h2, .why-come-back h2 {
-        font-size: 30pt;
+        font-size: 24pt;
+        padding-bottom: 1em;
+        margin: 0
     }
     .offer p, .why-come-back p {
         font-size: 12pt;
         width: 100%;
         text-align: justify;
+        padding: 0;
+        margin: 0;
     }
     .offer-columns {
         display: flex;
         flex-direction: column;
         gap: 0;
-        padding: 0;
+        padding-bottom: 2em;
     }
 
     /* footer */
