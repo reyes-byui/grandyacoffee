@@ -727,4 +727,164 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
     padding: 4em 2em 2em 2em;
     height: 35vh;
 }
+  #discount-form-modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .discount-modal-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+  }
+  .discount-modal-content {
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    max-width: 350px;
+    width: 90vw;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .discount-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #888;
+    cursor: pointer;
+  }
+  #discount-form label {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  #discount-form input[type="text"],
+  #discount-form input[type="tel"],
+  #discount-form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .phone-input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .country-code {
+    background: #eee;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
+  #phone {
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+  }
+  .discount-submit-btn {
+    margin-top: 1.5rem;
+    background: black;
+    color: #ffd500;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .discount-submit-btn:hover {
+    background: #ffd500;
+    color: #000000;
+  }
+  .social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 0.5rem 0;
+    justify-content: center;
+  }
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+  }
+  .social-icon:hover {
+    transform: scale(1.15);
+  }
+  #discount-slide {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 2000;
+    background:#222; 
+    color: #ffd500; 
+    border-radius: 18px 0 0 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+    padding: 2.2em 1.5em 2.2em 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 180px;
+    max-width: 260px;
+    transform: translateY(-50%) translateX(120%);
+    opacity: 0;
+    transition: transform 0.7s cubic-bezier(.77,0,.18,1), opacity 0.7s cubic-bezier(.77,0,.18,1);
+  }
+  #discount-slide.partial-out {
+    transform: translateY(-50%) translateX(70%);
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  #discount-slide.slide-in {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+  #discount-slide {
+    transition: transform 0.7s cubic-bezier(.77,0,.18,1), opacity 0.7s cubic-bezier(.77,0,.18,1);
+  }
+  #discount-slide h2 {
+    margin: 0 0 0.7em 0;
+    font-size: 1.3em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+  }
+  #discount-slide p {
+    color: white;
+    font-size: 20pt;
+  }
+  #discount-slide p:hover {
+      color: #ffd500;
+      cursor: pointer;
+  }
+  #discount-slide button {
+    background: #ffd500;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7em 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 0.5em;
+    transition: background 0.2s, color 0.2s;
+  }
+  #discount-slide button:hover {
+    background: white;
+    color: #222;
+  }
 }

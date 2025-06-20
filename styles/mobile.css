@@ -730,4 +730,29 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
     padding: 4em 2em 2em 2em;
     height: 35vh;
 }
+  #discount-slide {
+    top: 60%;
+    min-width: 120px;
+    max-width: 90vw;
+    font-size: 0.98em;
+    padding-right: 1.8em; /* Add more right padding for toggle button space */
+  }
+  #discount-slide-toggle {
+    left: -22px;
+    width: 28px;
+    height: 28px;
+    font-size: 1em;
+  }
+body, html {
+    overflow-x: hidden;
+  }
+  main {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+  #discount-slide {
+    /* ...existing code... */
+    right: 0;
+    margin-right: 0;
+  }
 }
