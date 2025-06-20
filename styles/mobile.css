@@ -730,6 +730,9 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
     padding: 4em 2em 2em 2em;
     height: 35vh;
 }
+    #discount-form-modal {
+    padding: 2em;
+ }
   #discount-slide {
     top: 60%;
     min-width: 120px;
