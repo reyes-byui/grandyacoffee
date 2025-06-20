@@ -47,10 +47,10 @@ function showDiscountForm() {
         <h3>How to Get Your Discount</h3>
         <ol style="margin-bottom:1.2em;">
           <li>
-            Follow us on <a href="https://www.instagram.com/grandyacoffee/" target="_blank" rel="noopener" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram" class="social-icon"></a> or <a href="https://web.facebook.com/profile.php?id=61564243991797" target="_blank" rel="noopener" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook" class="social-icon"></a>
+            Follow us on <a href="https://www.instagram.com/grandyacoffee/" target="_blank" rel="noopener" aria-label="Instagram"><img src="/icons/instagram.svg" alt="Instagram" class="social-icon"></a> or <a href="https://web.facebook.com/profile.php?id=61564243991797" target="_blank" rel="noopener" aria-label="Facebook"><img src="/icons/facebook.svg" alt="Facebook" class="social-icon"></a>
           </li>
           <li style="margin-top:0.8em;">
-            Message us on <a href="https://t.me/+85510759985" target="_blank" rel="noopener" aria-label="Telegram"><img src="icons/telegram.svg" alt="Telegram" class="social-icon"></a><br>
+            Message us on <a href="https://t.me/+85510759985" target="_blank" rel="noopener" aria-label="Telegram"><img src="/icons/telegram.svg" alt="Telegram" class="social-icon"></a><br>
             <span style="font-size:0.98em;">Say: <b>Hello, I'm &lt;Your Name&gt;</b></span>
           </li>
           <li style="margin-top:0.8em;">
